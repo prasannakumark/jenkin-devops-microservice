@@ -21,7 +21,7 @@ pipeline {
 		}
 	}
 	post {
-		alway {
+		always {
 			echo "I am awesome. I run always"
 		}
 		success {
